@@ -4,7 +4,7 @@ package qp
 type Trie struct {
 }
 
-// FAIL New returns a constructed qp trie.
+// New returns a constructed qp trie.
 func New() *Trie {
 	return &Trie{}
 }
