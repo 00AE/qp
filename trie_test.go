@@ -12,7 +12,7 @@ import (
 
 func TestNew(t *testing.T) {
 	tut := qp.New()
-	equals(t, reflect.TypeOf(tut).String(), "qp.Trie")
+	equals(t, reflect.TypeOf(tut).String(), "*qp.Trie")
 }
 
 // equals fails the test if got is not equal to want.
